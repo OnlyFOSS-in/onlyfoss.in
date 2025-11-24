@@ -1,0 +1,17 @@
+---
+base_url: "https://onlyfoss.in"
+static_dir: "static"
+per_page: 50
+
+# Each entry can have multiple collection of tags (list of strings) in addition to the
+# categories. For instance, a directory of fonts could have multiple meaningful
+# tag collections per entry such as:
+# types = [serif, sans-serif, display, script]
+# mood = [retro, distressed, cool]
+# tag = [yep, nope, etc]
+# taxonomies: ["style", "mood"]
+
+site_name: "OnlyFOSS Resources"
+site_description: "Collective of FOSS Resources for Communities / Clubs"
+page_title: "{category} - Collective resources for FOSS"
+meta_description: "Resource in {category}"
