@@ -38,7 +38,7 @@ jobs:
         with:
           # THIS IS THE CRITICAL LINE
           # It tells GitHub to deploy the contents of the 'site/' folder
-          path: 'site/'
+          path: site/
 
       - name: Deploy to GitHub Pages
         id: deployment
